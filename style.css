@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #dbe9e9;
+    height: 200vh;
+}
+
+.popular_destinations {
+    width: 98vw;
+    background: white;
+    margin: 0 auto;
+    padding-left: 26px;
+    padding-top: 24px;
+    padding-bottom: 35px;
+}
+
+.popular_headding {
+    padding-bottom: 10px;
+}
+
+.popular_para{
+    margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.both{
+    padding-left: 5px;
+}
+/* -------------------------- */
+
+
+#grid_items {
+    /* width: 30rem; */
+    /* height: 9rem; */
+    background: aquamarine;
+    margin: 6px;
+    border-radius: 40px;
+}
+
+.popular_grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+    gap: 5px;
+}
+
+.div1{
+    grid-row-start: span 2;
+    height: 47rem;
+} 
+
+.grid_content,.blue_sky{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 19px;
+  flex-wrap: wrap;
+    color: white;
+}
+
+#mag1{
+    background-image:url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/01/15/12/mumbai_afp.jpg);
+    background-size: cover;
+    border-radius: 40px;
+
+}
+
+#mag2{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFm154iNPVkQoTgASQGGbEthrghlM39a8bg&s);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#mag3{
+    background-image:url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/07/a8/2c/caption.jpg?w=1400&h=1400&s=1);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#mag4{
+    background-image:url(https://curioustimes.in/wp-content/uploads/2019/10/Krabi-Thailand.jpg);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#mag5{
+    background-image:url(https://so-hotels.com/wp-content/uploads/sites/19/2023/06/maldives-intro-azure-coast.jpg);
+    background-size: cover;
+    border-radius: 40px;
+}
+/* ---------------------- */
+
+
+    #dext{
+    /* height: 10rem; */
+  background: blanchedalmond;
+  /* width: 31rem; */
+  margin: 10px;
+  border-radius: 40px;
+}
+
+.nice_detination{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.dive3{
+    grid-row-start: span 2;
+    height: 47rem;
+}
+
+
+#blue-sky1{
+    background-image:url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#blue-sky2{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#blue-sky3{
+    background-image:url(https://i0.wp.com/picjumbo.com/wp-content/uploads/breathtaking-bali-nature-free-photo.jpg?w=600&quality=80);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#blue-sky4{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HZZONB2Xa0AoNJhtiqwQHnRIxFaHUteyaQ&s);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#blue-sky5{
+    background-image:url(https://t4.ftcdn.net/jpg/06/30/84/15/360_F_630841579_zMXYOcDlyYsEQNsiYhwlA9SMs5STj7mS.jpg);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+/* ------------------------ */
+
+#maga1{
+    background-image:url(https://buffer.com/library/content/images/size/w1200/library/wp-content/uploads/2018/11/free-images-social.png);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#maga2{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkA9gblpiJEJfpBwChxch8UVTI4VkPKpkSA&s);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#maga3{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0FL9n2Nd0tJiEjoEg9zhZL0pQt9qn5-QrQ&s);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#maga4{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdvpjC4RB4djIywy-zDwPG8LMidWcr2Y2Uog&s);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+#maga5{
+    background-image:url(https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Innova-Crysta/9612/1697698611076/front-left-side-47.jpg?impolicy=resize&imwidth=420);
+    background-size: cover;
+    border-radius: 40px;
+}
+
+/* -------------------------- */
+@media (max-width: 600px) {
+    .popular_grid,.nice_detination{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Grid settings for medium screens */
+@media (min-width: 601px) and (max-width: 900px) {
+    .popular_grid,.nice_detination {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Grid settings for large screens */
+@media (min-width: 901px) {
+    .popular_grid,.nice_detination {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
